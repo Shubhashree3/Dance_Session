@@ -1,0 +1,19 @@
+<template>
+	  <b-row class="p-3">
+        <b-col class="row ">
+            <b-card v-for="session in sessions"   class="text-center mb-3 col-md-3 col-sm-6  text-uppercase zoomOnHover" :header="session.name">
+              <b-card-img class="dance_card_img" :src="require(`~/assets/${session.img}`)" alt="Card image" ></b-card-img>
+                 
+                 <b-card-text class="dance_card_text">
+                  <label class=" text-capitalize">Location :<span class="m-1 mt-0 mb-0">{{session.location}}</span></label>
+                  <label class="text-capitalize">Date :<span class="m-1 mt-0 mb-0 ">{{session.date}}</span></label>
+                </b-card-text>
+
+                <b-card-footer class="text-center "><label>Time :</label> {{(session.time)}}
+                  <b-button @click="showModal(session.id)" variant="outline-success">Book Now</b-button>
+                </b-card-footer>
+              
+              </b-card>
+        </b-col>
+      </b-row>
+</template>
