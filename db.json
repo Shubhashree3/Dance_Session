@@ -1,0 +1,117 @@
+{
+  "sessions": [
+    {
+      "id": 1,
+      "img": "dance1.jpg",
+      "time": "6 P.M.",
+      "location": "Rajkot",
+      "name": "Bharatnatyam",
+      "date": "14-06-2021"
+    },
+    {
+      "id": 2,
+      "img": "dance2.jpeg",
+      "time": "6 P.M.",
+      "location": "Rajkot",
+      "name": "Bharatnatyam",
+      "date": "14-06-2021"
+    },
+    {
+      "id": 3,
+      "img": "dance3.jpg",
+      "time": "6 P.M.",
+      "location": "Rajkot",
+      "name": "Bharatnatyam",
+      "date": "14-06-2021"
+    },
+    {
+      "id": 4,
+      "img": "dance4.jpg",
+      "time": "6 P.M.",
+      "location": "Rajkot",
+      "name": "Bharatnatyam",
+      "date": "14-06-2021"
+    },
+    {
+      "id": 5,
+      "img": "dance5.jpg",
+      "time": "6 P.M.",
+      "location": "Rajkot",
+      "name": "Bharatnatyam",
+      "date": "14-06-2021"
+    },
+    {
+      "id": 6,
+      "img": "dance6.png",
+      "time": "6 P.M.",
+      "location": "Rajkot",
+      "name": "Katthak",
+      "date": "14-06-2021"
+    }
+  ],
+  "submittedUsers": [
+    {
+      "id": 1,
+      "session_id": 1,
+      "username": "shree",
+      "mobNo": "123456789",
+      "email": "s@s.com"
+    },
+    {
+      "id": 2,
+      "session_id": 2,
+      "username": "shree2",
+      "mobNo": "123456789",
+      "email": "s@s.com"
+    },
+    {
+      "id": 3,
+      "session_id": 2,
+      "username": "shree3",
+      "mobNo": "123456789",
+      "email": "s@s.com"
+    },
+    {
+      "username": "shree",
+      "mobNo": "01234",
+      "email": "qdf",
+      "session_id": 1,
+      "id": 4
+    },
+    {
+      "username": "shree",
+      "mobNo": "0asd",
+      "email": "qdf",
+      "session_id": 1,
+      "id": 5
+    },
+    {
+      "username": "shree",
+      "mobNo": "01234",
+      "email": "a@gmail.com",
+      "session_id": "5",
+      "id": 6
+    },
+    {
+      "username": "shree",
+      "mobNo": "01234",
+      "email": "a@gmail.com",
+      "session_id": 1,
+      "id": 7
+    },
+    {
+      "username": "shree",
+      "mobNo": "0asd",
+      "email": "qdf",
+      "session_id": 1,
+      "id": 8
+    },
+    {
+      "username": "shree",
+      "mobNo": "01234",
+      "email": "a@gmail.com",
+      "session_id": 1,
+      "id": 9
+    }
+  ]
+}
