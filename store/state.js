@@ -1,4 +1,4 @@
 export default () => ({
-  sessions:[],
-  submittedUsers:[]
-})
+  sessions: [],
+  submittedUsers: [],
+});

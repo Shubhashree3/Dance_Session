@@ -59,28 +59,31 @@
     color: #fff;
     background-color: #35495e;
   }
-  .zoomOnHover:hover{
+
+  .zoomOnHover:hover {
     transform: scale(1.1);
     z-index: 100;
   }
+
   .title {
     font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+      'Quicksand',
+      'Source Sans Pro',
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Roboto,
+      'Helvetica Neue',
+      Arial,
+      sans-serif;
     display: block;
     font-weight: 300;
     font-size: 100px;
     color: #35495e;
     letter-spacing: 1px;
   }
-  .main_template{
+
+  .main_template {
     background-color: white;
   }
 
@@ -91,15 +94,18 @@
     align-items: center;
     text-align: center;
   }
-  .title_text{
+
+  .title_text {
     font-family: cursive;
   }
-  .dance_card_img{
-    height: 60%; 
-    max-width: 100%; 
+
+  .dance_card_img {
+    height: 60%;
+    max-width: 100%;
     align-content: center;
   }
-  .dance_card_text{
+
+  .dance_card_text {
     text-align: center;
   }
 
