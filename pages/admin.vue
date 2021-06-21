@@ -27,7 +27,7 @@
         </b-col>
 
       </b-row>
-      <AdminCard/>
+      <CardView type='admin'/>
       <b-modal
         ref="my-modal"
         id="modal-prevent-closing"
@@ -127,9 +127,7 @@
 
 <script>
 export default {
-  created() {
-    this.$store.dispatch('fetchSessions');
-  },
+
   data() {
     return {
       session:
@@ -146,11 +144,6 @@ export default {
       locationState: null,
       dateState: null,
     };
-  },
-  computed: {
-    sessions() {
-      return this.$store.state.sessions;
-    },
   },
   methods: {
     checkFormValidity() {

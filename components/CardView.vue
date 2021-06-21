@@ -19,7 +19,8 @@
             Date :<span class="m-1 mt-0 mb-0">{{session.date}}</span>
           </label>
         </b-card-text>
-        <b-card-footer class="d-flex flex-column "><label>Time :{{(session.time)}}</label>
+        <b-card-footer v-if="type == 'admin'" class="d-flex flex-column ">
+          <label>Time :{{(session.time)}}{{type}}</label>
           <b-button  variant="outline-danger" @click="deleteSessions(session.id)">Delete Session
           </b-button>
           <NuxtLink
@@ -28,12 +29,27 @@
             View Registered User
           </NuxtLink>
         </b-card-footer>
+        <b-card-footer v-if="type!='admin'" class="d-flex flex-column">
+            <label>Time :{{(session.time)}}{{type}}</label>
+            <b-button
+              class="col-sm-12 col-md-12"
+              @click="showModal(session)"
+              variant="outline-danger">
+              Book Now
+            </b-button>
+          </b-card-footer>
       </b-card>
     </b-col>
     </b-row>
 </template>
 <script>
 export default {
+  created() {
+    this.$store.dispatch('fetchSessions');
+  },
+  props: [
+    'type',
+  ],
   computed: {
     sessions() {
       return this.$store.state.sessions;
@@ -42,6 +58,9 @@ export default {
   methods: {
     deleteSessions(id) {
       this.$store.dispatch('deleteSessions', id);
+    },
+    showModal(session) {
+      this.$emit('book-session', session);
     },
   },
 };
