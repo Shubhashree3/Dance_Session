@@ -1,0 +1,20 @@
+{
+  "AdminCard": {
+    "description": "Auto imported from components/AdminCard.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "SessionCard": {
+    "description": "Auto imported from components/SessionCard.vue"
+  },
+  "SessionCarousal": {
+    "description": "Auto imported from components/SessionCarousal.vue"
+  }
+}

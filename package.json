@@ -7,14 +7,18 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "test": "jest"
+    "test": "jest",
+    "json:server": "json-server --watch db.json"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@nuxtjs/axios": "^5.13.6",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "json-server": "^0.16.3",
+    "nuxt": "^2.15.3",
+    "save": "^2.4.0"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.1.3",

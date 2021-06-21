@@ -1,0 +1,23 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/home/shubhashree/Dance_Session/pages/admin.vue",
+    "chunkName": "pages/admin",
+    "_name": "_6f952b33"
+  },
+  {
+    "name": "session-id",
+    "path": "/session/:id?",
+    "component": "/home/shubhashree/Dance_Session/pages/session/_id.vue",
+    "chunkName": "pages/session/_id",
+    "_name": "_ee6726b6"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/shubhashree/Dance_Session/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_3e25d736"
+  }
+]
