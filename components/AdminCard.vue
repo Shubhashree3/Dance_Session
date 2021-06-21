@@ -2,7 +2,7 @@
   <b-row class="p-3">
     <b-col class="row d-flex justify-content-center ">
       <b-card v-for="session in sessions" class="text-center mb-3 col-md-3 col-sm-6 text-uppercase zoomOnHover" :header="session.name">
-        <b-card-img class="dance_card_img" :src="require(`~/assets/${session.img}`)" alt="Card image" >
+        <b-card-img class="dance_card_img" :src="require(`~/assets/image/${session.img}`)" alt="Card image" >
         </b-card-img>
         <b-card-text  class="d-flex flex-column dance_card_text">
           <label class=" text-capitalize">
