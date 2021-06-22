@@ -1,8 +1,6 @@
 <template>
   <div class="main_template" id="dance">
-    <Header/>
     <b-container class="dance_container" fluid>
-
       <!--card-->
       <b-row class="d-flex flex-row justify-items-around p-3">
         <b-col>
@@ -120,13 +118,14 @@
           Cancel
         </b-button>
       </b-modal>
-      <Footer/>
+      <div class="pt-3"></div>
     </b-container>
   </div>
 </template>
 
 <script>
 export default {
+  layout: 'sessionLayout',
 
   data() {
     return {

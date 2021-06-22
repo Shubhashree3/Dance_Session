@@ -1,6 +1,5 @@
 <template>
   <div class="main_template" id="dance">
-    <Header/>
     <b-container fluid class="dance_container">
       <b-row class="data">
         <b-col cols="10" offset="1">
@@ -20,13 +19,13 @@
         </b-col>
       </b-row>
       <div v-if="submitedUsers.length<=5" class="footer_length"></div>
-      <Footer/>
     </b-container>
   </div>
 </template>
 
 <script>
 export default {
+  layout: 'sessionLayout',
   created() {
     this.$store.dispatch('fetchSubmittedUsers');
     this.$store.dispatch('fetchSessions');

@@ -62,7 +62,6 @@
         </b-form-input>
       </b-form-group>
     </form>
-
     <div>
       <label>
         <b>Note: </b>
@@ -102,7 +101,7 @@
 </style>
 <script type="text/javascript">
 export default {
-  layout: 'userLayout',
+  layout: 'sessionLayout',
   data() {
     return {
       user: {
