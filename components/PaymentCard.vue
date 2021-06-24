@@ -2,7 +2,7 @@
    <div class="pricing d-flex justify-content-around p-3">
       <!-- Free Tier -->
       <b-card class="mb-5 mb-lg-0">
-         <b-card-body>
+         <b-card-body >
             <h6 class="card-price text-center">FREE<span class="period">/month</span></h6>
             <hr>
             <ul class="fa-ul">
@@ -41,7 +41,7 @@
          </b-card-footer>
       </b-card>
       <b-card class="mb-5 mb-lg-0">
-         <b-card-body>
+         <b-card-body >
             <h6 class="card-price text-center">&#8377;700<span class="period">/month</span></h6>
             <hr>
             <ul class="fa-ul">
@@ -128,7 +128,7 @@
 }
 
 .pricing {
-  background: #007bff;
+  background: white;
   background: linear-gradient(to right, #e6002a, #e2345c);
 }
 

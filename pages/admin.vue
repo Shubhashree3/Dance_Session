@@ -2,21 +2,23 @@
   <div class="main_template" id="dance">
     <b-container class="dance_container" fluid>
       <!--card-->
-      <div style="min-height: 10vh;"></div>
-      <b-row class="d-flex flex-row justify-items-around p-3">
-        <b-col>
-          <b-badge class >
-            <h1 class="text-capitalize title_text" >Manage your Sessions </h1>
+      <div style="min-height: 15vh;"></div>
+      <b-row>
+        <b-col md="6">
+          <b-badge class="badge_text">
+            <h1 class="title_text  text-center">
+              Manage your Sessions
+            </h1>
           </b-badge>
         </b-col>
-        <b-col class="">
+        <b-col sm="12" md="6" class="text-center">
           <NuxtLink to="session">
-            <b-button class=" float-right" variant="outline-primary" size="lg">
+            <b-button class="session_button" variant="outline-primary" size="lg">
               View All Users
             </b-button>
         </NuxtLink>
           <b-button
-            class=" float-right mr-2"
+            class="session_button mr-2"
             @click="showModal"
             variant="outline-primary"
             size="lg"
@@ -204,5 +206,16 @@ export default {
 <style type="text/css">
   .dance_container {
     padding-top: 8%;
+  }
+
+  .session_button {
+    float: right;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .session_button {
+      float: none;
+      margin-top: 5px;
+    }
   }
 </style>

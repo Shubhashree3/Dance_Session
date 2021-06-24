@@ -5,7 +5,8 @@
         v-for="session in sessions"
         :key="session.id"
         class="text-center mb-3 col-md-3 col-sm-6 text-uppercase zoomOnHover"
-        :header="session.name">
+        :header="session.name"
+        >
         <b-card-img
           class="dance_card_img"
           :src="require(`~/assets/image/${session.img}`)"

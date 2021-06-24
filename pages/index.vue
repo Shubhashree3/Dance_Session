@@ -4,7 +4,7 @@
       <!--slide-->
       <div style="min-height: 30vh;"></div>
       <SessionCarousal/>
-      <b-row class="p-4">
+      <b-row class="p-4" id="aboutUs">
         <b-col cols="6" class="d-flex flex-column justify-content-center">
           <b-badge class="d-flex badge_text">
             <h4 class="title_text font-weight-bold text-center">
@@ -28,10 +28,10 @@
       </b-row>
       <!--card-->
       <b-row class="p-3">
-        <b-col class="d-flex justify-content-center">
-          <b-badge>
-            <h1 class="book_session_title title_text text-capitalize" >
-              Book Your Sessions Now
+        <b-col class="d-flex flex-wrap justify-content-center">
+          <b-badge class="d-flex badge_text">
+            <h1 class="title_text  text-center justify-content-center">
+              Book Your Free Session Now
             </h1>
           </b-badge>
         </b-col>

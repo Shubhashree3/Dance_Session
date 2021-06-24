@@ -10,14 +10,13 @@
             </h1>
           </b-badge>
         </b-col>
-
       </b-row>
       <b-row>
         <b-col md="12">
         <PaymentCard/>
         </b-col>
       </b-row>
-
+      <div style="min-height: 10vh;"></div>
     </b-container>
   </div>
 </template>

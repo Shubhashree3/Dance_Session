@@ -1,5 +1,5 @@
 <template>
-  <b-row class="p-2  border-top border-2 border-danger rounded">
+  <b-row class="p-2  border-top border-2 border-danger rounded" id="footer">
     <b-col cols="12" class="align-items-center d-flex flex-row justify-content-around">
       <h1 class="h1_text">Festival Of Dance</h1>
       <b-img src="~/assets/image/logo.png" class="w-25"></b-img>
