@@ -2,7 +2,30 @@
   <div class="main_template" id="dance">
     <b-container fluid>
       <!--slide-->
+      <div style="min-height: 30vh;"></div>
       <SessionCarousal/>
+      <b-row class="p-4">
+        <b-col cols="6" class="d-flex flex-column justify-content-center">
+          <b-badge class="d-flex badge_text">
+            <h4 class="title_text font-weight-bold text-center">
+              BHARAMAR DANCE ACADEMY
+            </h4>
+          </b-badge>
+          <p class="text-danger font-italic text-justify p-2" style="font-weight: bold;">
+            With an aim to provide quality dance training and making dance available to all,
+            BHRAMARA dance classes run throughout the year at multiple locations
+            for students from ages four to eighty four providing them with training in various
+            classical dance styles by Shubhashree’s expert faculty.
+            The classes give them an opportunity to learn indian classical dance,
+            express themselves creatively and perform on stage.
+            Classes are available for kids(4 to 6 years),
+            juniors(7 to 11 years) and adults(12 years onwards).
+          </p>
+        </b-col>
+        <b-col cols="6" class="d-flex">
+          <b-img src="~/assets/image/dance7.png" class="w-100 float-right"></b-img>
+        </b-col>
+      </b-row>
       <!--card-->
       <b-row class="p-3">
         <b-col class="d-flex justify-content-center">
@@ -97,6 +120,12 @@
   .carousel-caption {
     top: 0;
   }
+}
+
+.badge_text {
+  background-color: crimson;
+  color: azure;
+  max-width: max-content;
 }
 </style>
 <script type="text/javascript">

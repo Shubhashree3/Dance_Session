@@ -1,8 +1,12 @@
 <template>
-  <b-row  class="d-flex flex-row main_header align-items-center">
-      <b-col cols="10"><b-img src="~/assets/image/logo.png" class="w-25"></b-img></b-col>
-      <b-col><b-button variant="danger" class="">Contact Us</b-button></b-col>
-  </b-row>
+  <div>
+    <div class="d-flex flex-column main_header align-items-center row">
+      <div class="col-12 text-center">
+        <b-img src="~/assets/image/logo.png" class="w-25 justify-content-center"></b-img>
+      </div>
+      <div class="col-12"><DanceNavbar/></div>
+    </div>
+  </div>
 </template>
 <style type="text/css">
   .main_header {
@@ -10,6 +14,7 @@
     z-index: 1000;
     height: auto;
     width: 100%;
-    background: #ffffffde;
+    background: #fff;
+    border-bottom: 2px solid #ed143d45;
   }
 </style>

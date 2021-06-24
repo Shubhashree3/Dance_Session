@@ -2,6 +2,7 @@
   <div class="main_template" id="dance">
     <b-container class="dance_container" fluid>
       <!--card-->
+      <div style="min-height: 10vh;"></div>
       <b-row class="d-flex flex-row justify-items-around p-3">
         <b-col>
           <b-badge class >
