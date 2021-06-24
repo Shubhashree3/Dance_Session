@@ -35,8 +35,17 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    '@nuxtjs/axios',
+    '@nuxtjs/axios',['nuxt-fontawesome', {
+      imports: [
+        //import whole set
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['fas']
+        }
+      ]
+    }]    
   ],
+
   axios: {
     // baseURL: 'http://localhost:3000',
   },
