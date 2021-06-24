@@ -21,7 +21,7 @@
           </label>
         </b-card-text>
         <b-card-footer v-if="type == 'admin'" class="d-flex flex-column ">
-          <label>Time :{{(session.time)}}{{type}}</label>
+          <label>Time : {{(session.time)}}</label>
           <b-button  variant="outline-danger" @click="deleteSessions(session.id)">Delete Session
           </b-button>
           <NuxtLink
@@ -31,7 +31,7 @@
           </NuxtLink>
         </b-card-footer>
         <b-card-footer v-if="type!='admin'" class="d-flex flex-column">
-            <label>Time :{{(session.time)}}{{type}}</label>
+            <label>Time : {{(session.time)}}</label>
             <b-button
               class="col-sm-12 col-md-12"
               @click="showModal(session)"
