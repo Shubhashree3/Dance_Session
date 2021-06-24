@@ -68,7 +68,7 @@ export default {
 </script>
 <style type="text/css">
   .dance_container {
-    padding-top: 10%;
+    padding-top: 0%;
   }
 
   .footer_length {

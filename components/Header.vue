@@ -6,6 +6,7 @@
       </div>
       <div class="col-12"><DanceNavbar/></div>
     </div>
+    <div class="spacing"></div>
   </div>
 </template>
 <style type="text/css">
@@ -14,7 +15,11 @@
     z-index: 1000;
     height: auto;
     width: 100%;
-    background: #fff;
+    background: #ffffffde;
     border-bottom: 2px solid #ed143d45;
+  }
+
+  .spacing {
+    min-height: 22vh;
   }
 </style>

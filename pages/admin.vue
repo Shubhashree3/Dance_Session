@@ -2,7 +2,6 @@
   <div class="main_template" id="dance">
     <b-container class="dance_container" fluid>
       <!--card-->
-      <div style="min-height: 15vh;"></div>
       <b-row>
         <b-col md="6">
           <b-badge class="badge_text">
@@ -205,7 +204,7 @@ export default {
 </script>
 <style type="text/css">
   .dance_container {
-    padding-top: 8%;
+    padding-top: 0%;
   }
 
   .session_button {

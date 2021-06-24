@@ -1,6 +1,5 @@
 <template>
   <div class="main_template" id="dance">
-    <div style="min-height: 30vh;"></div>
     <b-container fluid>
       <b-row>
         <b-col  md="12" class="d-flex justify-content-center">

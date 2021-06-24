@@ -2,10 +2,9 @@
   <div class="main_template" id="dance">
     <b-container fluid>
       <!--slide-->
-      <div style="min-height: 30vh;"></div>
       <SessionCarousal/>
-      <b-row class="p-4" id="aboutUs">
-        <b-col cols="6" class="d-flex flex-column justify-content-center">
+      <b-row  id="aboutUs">
+        <b-col md="6" sm="12" class="d-flex flex-column justify-content-center">
           <b-badge class="d-flex badge_text">
             <h4 class="title_text font-weight-bold text-center">
               BHARAMAR DANCE ACADEMY
@@ -22,7 +21,7 @@
             juniors(7 to 11 years) and adults(12 years onwards).
           </p>
         </b-col>
-        <b-col cols="6" class="d-flex">
+        <b-col md="6" sm="12" class="d-flex">
           <b-img src="~/assets/image/dance7.png" class="w-100 float-right"></b-img>
         </b-col>
       </b-row>
@@ -30,7 +29,7 @@
       <b-row class="p-3">
         <b-col class="d-flex flex-wrap justify-content-center">
           <b-badge class="d-flex badge_text">
-            <h1 class="title_text  text-center justify-content-center">
+            <h1 class="title_text  text-center justify-content-center book_session_title">
               Book Your Free Session Now
             </h1>
           </b-badge>
@@ -114,7 +113,6 @@
 @media only screen and (max-width: 768px) {
   .book_session_title {
     font-size: 1.5rem;
-    font-family: cursive;
   }
 
   .carousel-caption {
@@ -122,11 +120,16 @@
   }
 }
 
+#aboutUs {
+  margin: 20px;
+}
+
 .badge_text {
   background-color: crimson;
   color: azure;
   max-width: max-content;
 }
+
 </style>
 <script type="text/javascript">
 export default {

@@ -1,10 +1,9 @@
 <template>
   <div class="main_template" id="dance">
     <b-container fluid>
-      <div style="min-height: 30vh;"></div>
-      <b-row class="p-4">
-        <b-col class="d-flex flex-wrap justify-content-center">
-          <b-badge class="d-flex badge_text">
+      <b-row class="p-4" >
+        <b-col class="text-center" sm="12">
+          <b-badge class="badge_text">
             <h1 class="title_text  text-center justify-content-center">
               You Can Register To Any Of Below Sessions
             </h1>
@@ -30,12 +29,16 @@
   .carousel-caption {
     top: 0;
   }
+
+  h1 {
+    font-size: 20px;
+    align-items: center;
+  }
 }
 
 .badge_text {
   background-color: crimson;
   color: azure;
-  max-width: max-content;
 }
 
 * {

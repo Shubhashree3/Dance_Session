@@ -9,7 +9,7 @@
         style="text-shadow: 1px 1px 2px #333;">
 
         <b-carousel-slide class="slider_image"  img-src="https://sites.google.com/site/vaneetashah/Untitled-3.jpg">
-        <h1>Dancers Don't Need Wings To Fly!</h1>
+        <h2>Dancers Don't Need Wings To Fly!</h2>
         </b-carousel-slide>
 
         <b-carousel-slide class="slider_image" img-src="http://nspa.in/blog/wp-content/uploads/2018/07/odishi.jpg">
@@ -26,5 +26,15 @@
 <style>
 .slider_image {
   height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider_image {
+    height: 50vh;
+  }
+
+  h2 {
+    display: none;
+  }
 }
 </style>
